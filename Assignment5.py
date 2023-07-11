@@ -1,0 +1,12 @@
+l1=[1,2,3,4,5,6,7,8,9,10] 
+print("List: ",l1)
+print("Sum: ",sum(l1))
+print("Smallest no.: ",min(l1))
+print("Largest no.: ",max(l1))
+l1.sort()
+print("Ascending: ",l1)
+l1.reverse()
+print("Descending: ",l1)
+l2=(l1)                
+print("Tuple: ",l1)
+del(l2)
